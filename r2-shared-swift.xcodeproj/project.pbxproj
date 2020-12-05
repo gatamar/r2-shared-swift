@@ -45,7 +45,6 @@
 		CA228D1D24BD990000879E2E /* ContentProtection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA228D1C24BD990000879E2E /* ContentProtection.swift */; };
 		CA228D1F24BDDDAF00879E2E /* CancellableResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA228D1E24BDDDAF00879E2E /* CancellableResult.swift */; };
 		CA252DD92447A3740005067C /* Minizip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA252DD82447A3740005067C /* Minizip.swift */; };
-		CA252DDB2447A3810005067C /* Minizip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA252DDA2447A3810005067C /* Minizip.framework */; };
 		CA252DE12447A5C00005067C /* Archive+ZIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA252DE02447A5C00005067C /* Archive+ZIPTests.swift */; };
 		CA2AE320221C1DCB008BD18F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2AE31D221C1DCB008BD18F /* Logger.swift */; };
 		CA2AE321221C1DCB008BD18F /* LoggerStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2AE31E221C1DCB008BD18F /* LoggerStub.swift */; };
@@ -157,7 +156,6 @@
 		CACDE6032485169F006FEB1B /* PerResourcePositionsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDE6022485169F006FEB1B /* PerResourcePositionsServiceTests.swift */; };
 		CACDE61D24858C50006FEB1B /* HTTPFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDE61C24858C50006FEB1B /* HTTPFetcher.swift */; };
 		CAD0FEC2244310BB0053C998 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD0FEC1244310BB0053C998 /* Array.swift */; };
-		CAD0FECA24431BFE0053C998 /* Fuzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD0FEC3244318A90053C998 /* Fuzi.framework */; };
 		CAD0FED02444B5C30053C998 /* FormatSnifferContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD0FECF2444B5C30053C998 /* FormatSnifferContent.swift */; };
 		CAD0FEDA2444FDB60053C998 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD0FED92444FDB50053C998 /* Archive.swift */; };
 		CAD178AD22B3A75C004E6812 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD178AF22B3A75C004E6812 /* Localizable.strings */; };
@@ -241,7 +239,6 @@
 		CA228D1C24BD990000879E2E /* ContentProtection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentProtection.swift; sourceTree = "<group>"; };
 		CA228D1E24BDDDAF00879E2E /* CancellableResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableResult.swift; sourceTree = "<group>"; };
 		CA252DD82447A3740005067C /* Minizip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minizip.swift; sourceTree = "<group>"; };
-		CA252DDA2447A3810005067C /* Minizip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Minizip.framework; path = Carthage/Build/iOS/Minizip.framework; sourceTree = "<group>"; };
 		CA252DE02447A5C00005067C /* Archive+ZIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Archive+ZIPTests.swift"; sourceTree = "<group>"; };
 		CA2AE31D221C1DCB008BD18F /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		CA2AE31E221C1DCB008BD18F /* LoggerStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerStub.swift; sourceTree = "<group>"; };
@@ -352,7 +349,6 @@
 		CACDE6022485169F006FEB1B /* PerResourcePositionsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerResourcePositionsServiceTests.swift; sourceTree = "<group>"; };
 		CACDE61C24858C50006FEB1B /* HTTPFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFetcher.swift; sourceTree = "<group>"; };
 		CAD0FEC1244310BB0053C998 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		CAD0FEC3244318A90053C998 /* Fuzi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fuzi.framework; path = Carthage/Build/iOS/Fuzi.framework; sourceTree = "<group>"; };
 		CAD0FECF2444B5C30053C998 /* FormatSnifferContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatSnifferContent.swift; sourceTree = "<group>"; };
 		CAD0FED92444FDB50053C998 /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
 		CAD0FEDB2444FDEC0053C998 /* ZIPFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPFoundation.swift; sourceTree = "<group>"; };
@@ -384,8 +380,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD0FECA24431BFE0053C998 /* Fuzi.framework in Frameworks */,
-				CA252DDB2447A3810005067C /* Minizip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -950,8 +944,6 @@
 		F3E7D41F1F4ECA9800DF166D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CA252DDA2447A3810005067C /* Minizip.framework */,
-				CAD0FEC3244318A90053C998 /* Fuzi.framework */,
 				CA86728D24485BE70035FDF4 /* CoreServices.framework */,
 			);
 			name = Frameworks;
@@ -1481,8 +1473,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../r2-testapp-swift/Carthage_Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "r2-shared-swift/Info.plist";
@@ -1515,8 +1507,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../r2-testapp-swift/Carthage_Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "r2-shared-swift/Info.plist";
