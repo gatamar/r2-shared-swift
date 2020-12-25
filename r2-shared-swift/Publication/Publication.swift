@@ -144,7 +144,7 @@ public class Publication: Loggable {
         let link = self.link(withHREF: href)?
             // Uses the original href to keep the query parameters
             .copy(href: href, templated: false)
-        
+        print("TADAM Publication get: \(href)")
         return get(link ?? Link(href: href))
     }
 
